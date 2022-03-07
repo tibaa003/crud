@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="wclassth=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <form action="../php/addGame.php" method="post" class="flexRow">
+        <div id="crewmates">
+            <label for="crewmate">crewmates</label>
+            <input type="text" name="crewmate1">
+            <input type="text" name="crewmate2">
+            <input type="text" name="crewmate3">
+            <input type="text" name="crewmate4">
+            <input type="text" name="crewmate5">
+            <input type="text" name="crewmate6">
+            <input type="text" name="crewmate7">
+            <input type="text" name="crewmate8">
+        </div>
+        <div id="imposters">
+            <label for="imposter">imposters</label>
+            <input type="text" name="imposter1">
+            <input type="text" name="imposter2">
+        </div>
+        <div>
+            <div>
+                <h3>imposter win</h3>
+                <input type="radio" name="imposterWin" value="true">
+            </div>
+            <div>
+                <h3>crewmate win</h3>
+                <input type="radio" name="crewmateWin" value="false">
+            </div>
+        </div>
+        <div>
+            <input type="submit" value="submit">
+        </div>
+    </form>
+</body>
+
+</html>

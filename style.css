@@ -1,0 +1,20 @@
+#crewmates{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 400px;
+    padding: 20px;
+    justify-content: space-between;
+}
+.flexRow{
+    display: flex;
+    flex-direction: row;
+}
+#imposters{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 100px;
+    padding: 20px;
+    justify-content: space-between;
+}
